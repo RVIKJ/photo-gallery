@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <h1>Photo Gallery</h1>
+        <img id="bigimg" src="The%20Avengers%20logo.png">
+        <br>
+        <br>
+        <br>
+        <div>
+        <span><img class="gridimg" src="ironman.jpg"><img class="gridimg" src="cap.jpg"><img class="gridimg" src="thor.jpg"><img class="gridimg" src="bucky.jpg"></span>
+            <br>
+            <br>
+            <span><img class="gridimg" src="blackwidow.jpg"><img class="gridimg" src="haykeye.jpg"><img class="gridimg" src="hulk.jpg"><img class="gridimg" src="thanos.jpg"></span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <ol class="carousel-indicators">
+        <li data-target="#mycarousel" data-slide-to="2" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <li data-target="#mycarousel" data-slide-to="4"></li>
+            <li data-target="#mycarousel" data-slide-to="5"></li>
+            <li data-target="#mycarousel" data-slide-to="6"></li>
+            <li data-target="#mycarousel" data-slide-to="7"></li>
+        </ol>
+    <div class="item active">
+        <center>
+            <a href="#"><img src="ironman.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Iron Man</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="cap.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Captain America</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="thor.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Thor</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="bucky.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Winter Soldier (Bucky Barnes)</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="blackwidow.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Black Widow</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="haykeye.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Hawkeye</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="hulk.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Hulk</p>
+            </div>
+        </center>
+        </div>
+        
+        <div class="item">
+        <center>
+            <a href="#"><img src="thanos.jpg" class="img-responsive"></a>
+            <div class="carousel-content">
+            <p>Thanos</p>
+            </div>
+        </center>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+    </div>
+    </body>
+</html>
